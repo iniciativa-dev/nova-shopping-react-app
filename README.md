@@ -1,4 +1,37 @@
 # Front-End -- Sistema de cadastro e entregas (NOVA SHOPPING)
+
+Em construção .............
+
+## Projeto 2 - Equipe 4
+
+<table><tr><td valign="top" width="33%">
+
+###  [João Paulo](https://github.com/JoaoPauloPereirax)
+
+
+<div align="center">  
+ 
+</div>
+
+</td><td valign="top" width="33%">
+
+
+### [Carol Toledo](https://github.com/Carol-Sust) 
+<div align="center">  
+ 
+</div>
+
+</td><td valign="top" width="33%">
+
+### [Filipe H. Secherini](https://github.com/Sechebr)
+
+<div align="center">  
+ 
+</div>
+
+</td></tr></table>  
+
+
 ## Tecnologias utilizadas
 <div align="left">
 <a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
