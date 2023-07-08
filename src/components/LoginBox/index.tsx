@@ -1,14 +1,10 @@
 import * as C from './style';
+import logo from '../../assets/images/logo.png'
 
 export const LoginBox = () => {
      return (
           <C.Container>
-               <div>
-                    <h1>Logo</h1>
-               </div>
-               <div>
-                    <h1>Login</h1>
-               </div>
+               <img src={logo} alt="Logo Shopping"/>
           </C.Container>
      );
 }

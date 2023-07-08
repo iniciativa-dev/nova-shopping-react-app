@@ -9,4 +9,11 @@ export const Container = styled.div`
   color: white;
   display: flex;
   justify-content: space-between;
+
+
+
+
+  img {
+    height: 100px;
+  }
 `;
