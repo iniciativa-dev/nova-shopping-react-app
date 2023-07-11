@@ -1,14 +1,18 @@
 import React from 'react';
-import * as C from './style.App';
-import { LoginBox } from './components/LoginBox';
+import { LoginBox } from './Pages/LoginBox';
+import {Routes, Route} from 'react-router-dom';
+import { SignIn } from './Pages/SignIn';
+import { NotFound } from './Pages/NotFound';
 
 
 
 function App() {
   return (
-    <C.Container>
-      <LoginBox/>
-    </C.Container>
+    <Routes>
+      <Route path='/' element={<LoginBox/>} />
+      <Route path='/register' element={<SignIn/>} />
+      <Route path='*' element={<NotFound/>}/> 
+    </Routes>
   );
 }
 
