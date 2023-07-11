@@ -5,6 +5,7 @@ export const LoginBox = () => {
      return (
           <C.Container>
                <img src={logo} alt="Logo Shopping"/>
+               <h1>Teste</h1>
           </C.Container>
      );
 }
