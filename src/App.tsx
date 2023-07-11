@@ -1,5 +1,6 @@
 import React from 'react';
-import { LoginBox } from './Pages/LoginBox';
+import * as C from './App.styles';
+import { LoginAdm } from './Pages/LoginAdm';
 import {Routes, Route} from 'react-router-dom';
 import { SignIn } from './Pages/SignIn';
 import { NotFound } from './Pages/NotFound';
@@ -8,11 +9,13 @@ import { NotFound } from './Pages/NotFound';
 
 function App() {
   return (
-    <Routes>
-      <Route path='/' element={<LoginBox/>} />
-      <Route path='/register' element={<SignIn/>} />
-      <Route path='*' element={<NotFound/>}/>
-    </Routes>
+    <C.Container>
+          <Routes>
+            <Route path='/' element={<LoginAdm/>} />
+            <Route path='/register' element={<SignIn/>} />
+            <Route path='*' element={<NotFound/>}/>
+          </Routes>
+    </C.Container>
   );
 }
 
