@@ -43,8 +43,9 @@ Em construção .............
 ## Templates
 
 ### Modelo de Login ADM
-
-![LoginLogin---ADM](./src/assets/templates/LoginLogin---ADM.png)
+![LoginAdm](./src/assets/templates/LoginAdm.png)
+### Modelo de Folha de Registros
+![LoginFolhaDeRegistros](./src/assets/templates/LoginFolhaDeRegistros.png)
 
 
 ## Modo de usar
