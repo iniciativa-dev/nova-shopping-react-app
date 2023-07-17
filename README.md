@@ -44,6 +44,8 @@ Em construção .............
 
 ### Modelo de Login ADM
 ![LoginAdm](./src/assets/templates/LoginAdm.png)
+### Modelo de Cadastro de funcionários
+![LoginFolhaDeRegistros](./src/assets/templates/CadastroAdm.png)
 ### Modelo de Folha de Registros
 ![LoginFolhaDeRegistros](./src/assets/templates/LoginFolhaDeRegistros.png)
 
