@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 5em;
+  height: 12vh;
+  padding: 1em;
   background-color: #000;
   margin: 0;
   display: flex;
@@ -14,7 +15,7 @@ export const Container = styled.div`
 export const HeaderLeft = styled.div`
     margin: 2em;
   p{
-    color: #fff;
+    color: var(--color-header);
   }
   
 `;
