@@ -1,0 +1,126 @@
+{
+    "usuarios": {
+      "id": "1",  
+      "username": "pedro",
+      "password": "pedro1234",
+      "email": "pedro@example.com"
+       },
+    "estoque":[
+        {
+            "id":"1",
+            "nome": "Armario P",
+            "lote": "3255646548",
+            "preco": 129,
+            "peso": 320,
+            "qtd": 5
+        },
+        {
+            "id":"2",
+            "lote": "3355646554",
+            "nome": "Cama de Casal",
+            "preco": 2309,
+            "peso": 280,
+            "Qtd": 7
+        },
+        {
+            "id":"3",
+            "lote": "5545646544",
+            "nome": "Armario de Cozinha",
+            "preco": 1509,
+            "peso": 380,
+            "qtd": 2
+        }
+            
+    ],
+    "pedidos":[
+    {
+        "id":"1",
+        "estoque" : "1",
+        "entregador": "2",
+        "status": "normal",
+        "qtd": "1",
+        "logradouro" : "Rua Cristina",
+        "numero": "Null",
+        "apto": "Null",
+        "bairro": "Santa Luisa",
+        "UF": "RJ",
+        "hora": "11:00",
+        "dia": "18/06"
+    },
+    {
+        "id":"2",
+        "estoque" : "2",
+        "entregador": "1",
+        "status": "normal",
+        "qtd": "1",
+        "logradouro" : "Rua Braga",
+        "numero": "380",
+        "apto": "Null",
+        "bairro": "Santa Barbara",
+        "UF": "RJ",
+        "hora": "10:30",
+        "dia": "18/06"
+    },
+    {
+        "id":"3",
+        "estoque" : "2",
+        "entregador": "2",
+        "status": "atrasado",
+        "qtd": "1",
+        "logradouro" : "Rua Giranda",
+        "numero": "57",
+        "apto": "306",
+        "bairro": "Copacabana",
+        "UF": "RJ",
+        "hora": "09:30",
+        "dia": "18/06"
+    },
+    {
+        "id":"4",
+        "estoque" : "1",
+        "entregador": "3",
+        "status": "atrasado",
+        "qtd": "1",
+        "logradouro" : "Rua Rosa",
+        "numero": "13",
+        "apto": "Null",
+        "bairro": "Santa Barbara",
+        "UF": "RJ",
+        "hora": "09:00",
+        "dia": "18/06"
+    },
+    {
+        "id":"5",
+        "estoque" : "3",
+        "entregador": "2",
+        "status": "normal",
+        "qtd": "1",
+        "logradouro" : "Rua Lilia",
+        "numero": "20",
+        "apto": "704",
+        "bairro": "Copacabana",
+        "UF": "RJ",
+        "hora": "14:00",
+        "dia": "18/06"
+    },
+    {
+        "id":"6",
+        "estoque" : "1",
+        "entregador": "3",
+        "status": "normal",
+        "qtd": "1",
+        "logradouro" : "Rua Vida",
+        "numero": "44",
+        "apto": "NUll",
+        "bairro": "Copacabana",
+        "UF": "RJ",
+        "hora": "11:00",
+        "dia": "18/06"
+    }],
+    "entregador":[
+    {
+        "1": "Fabio", 
+        "2": "Julio",  
+        "3": "Rodrigo"    
+    }]
+}
