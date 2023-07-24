@@ -52,6 +52,6 @@ export const HeaderRight = styled.div`
   .link{
     display: flex;
     text-decoration: none;
-    color: var(--fonte-color-white);
+    color: var(--color-font-header);
   }
 `;
