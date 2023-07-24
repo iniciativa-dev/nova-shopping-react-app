@@ -18,6 +18,6 @@ export const Container = styled.div`
 
      tr{
      display: grid;
-     grid-template-columns: repeat(7,1fr);
+     grid-template-columns: 2fr 1fr 3fr 2fr 2fr 3fr 0.7fr;
      }
 `;

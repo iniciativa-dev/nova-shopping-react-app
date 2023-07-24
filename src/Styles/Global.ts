@@ -10,7 +10,6 @@ export default createGlobalStyle`
      --color-back-table-header: #B0B0B0;
 
      --color-font-header: #fff;
-     
 
 }
 
