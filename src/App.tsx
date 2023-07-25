@@ -5,6 +5,7 @@ import {Routes, Route} from 'react-router-dom';
 import { SignIn } from './Pages/SignIn';
 import { NotFound } from './Pages/NotFound';
 import { LoginFolhaDeRegistros } from './Pages/LoginFolhaDeRegistros';
+import { NewStorage } from './Pages/NewStorage';
 
 
 
@@ -15,6 +16,7 @@ function App() {
             <Route path='/' element={<LoginAdm/>} />
             <Route path='/register' element={<SignIn/>} />
             <Route path='/registers' element={<LoginFolhaDeRegistros/>} />
+            <Route path='/newstorage' element={<NewStorage/>} />
             <Route path='*' element={<NotFound/>}/>
           </Routes>
     </C.Container>

@@ -43,9 +43,11 @@ Em construção .............
 ## Templates
 
 ### Modelo de Login ADM
-![LoginAdm](./src/assets/templates/LoginAdm.png)
+![LoginAdm](./src/assets/templates/Dark-LoginAdm.png)
 ### Modelo de Folha de Registros
-![LoginFolhaDeRegistros](./src/assets/templates/LoginFolhaDeRegistros.png)
+![LoginFolhaDeRegistros](./src/assets/templates/Dark-LoginFolhaDeRegistros.png)
+### Modelo de Novo Estoque
+![LoginFolhaDeRegistros](./src/assets/templates/Dark-LoginNovoEstoque.png)
 
 
 ## Modo de usar
