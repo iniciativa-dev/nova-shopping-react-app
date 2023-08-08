@@ -8,7 +8,7 @@ export const SignIn = () => {
                     <img src={logo} alt='Logo Shopping'/>
                </div>
                <div>
-                    <h1>Cadastro de Funcionarios</h1>
+                    <h1>Cadastro de Funcionários</h1>
                     <form action="login" method="post">
                          <input type="text" name="nome" placeholder="Nome completo"></input>
                          <input type="text" name="cpf" placeholder="CPF"></input>
