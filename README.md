@@ -42,11 +42,30 @@ Em construção .............
 
 ## Templates
 
+
+### Modelo de Login ADM 
+
+http://localhost:3000
+
+![LoginAdm](./src/assets/templates/LoginAdm.png)
+
+### Modelo de Folha de Registros
+
+http://localhost:3000/registers
+
+![LoginFolhaDeRegistros](./src/assets/templates/Dark-LoginFolhaDeRegistros.png)
+
+### Modelo de Novo Estoque
+
+http://localhost:3000/newstorage
+
+=======
 ### Modelo de Login ADM
 ![LoginAdm](./src/assets/templates/Dark-LoginAdm.png)
 ### Modelo de Folha de Registros
 ![LoginFolhaDeRegistros](./src/assets/templates/Dark-LoginFolhaDeRegistros.png)
 ### Modelo de Novo Estoque
+
 ![LoginFolhaDeRegistros](./src/assets/templates/Dark-LoginNovoEstoque.png)
 
 

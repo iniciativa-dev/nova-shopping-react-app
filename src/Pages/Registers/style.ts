@@ -10,6 +10,3 @@ export const Container = styled.div`
 `;
 
 
-export const HandleProduct = styled.div`
-
-`;

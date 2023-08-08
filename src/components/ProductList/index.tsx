@@ -20,8 +20,8 @@ export const ProductList = () =>{
                          <th>Hora</th>
                          <th>ID Produto</th>
                          <th>Qtd</th>
-                         <th>Qtd</th>
                          <th>Status</th>
+                         <th>Entregador</th>
                          <th><img src={config} alt="Configurações" /></th>
                     </tr>
                          {list.map((item, index)=>(
