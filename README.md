@@ -42,10 +42,23 @@ Em construção .............
 
 ## Templates
 
-### Modelo de Login ADM
+### Modelo de Login ADM 
+
+http://localhost:3000
+
 ![LoginAdm](./src/assets/templates/LoginAdm.png)
+
 ### Modelo de Folha de Registros
-![LoginFolhaDeRegistros](./src/assets/templates/LoginFolhaDeRegistros.png)
+
+http://localhost:3000/registers
+
+![LoginFolhaDeRegistros](./src/assets/templates/Dark-LoginFolhaDeRegistros.png)
+
+### Modelo de Novo Estoque
+
+http://localhost:3000/newstorage
+
+![LoginFolhaDeRegistros](./src/assets/templates/Dark-LoginNovoEstoque.png)
 
 
 ## Modo de usar
