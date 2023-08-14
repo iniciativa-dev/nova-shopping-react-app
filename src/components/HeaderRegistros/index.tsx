@@ -1,6 +1,7 @@
 import * as C from './style';
-import sair from '../../assets/images/exit.png'
-import user from '../../assets/images/identification-badge.svg'
+import sair from '../../assets/images/exit.png';
+import user from '../../assets/images/identification-badge.svg';
+
 import { Link } from 'react-router-dom';
 export const HeaderRegistros = () => {
      return (
@@ -9,8 +10,8 @@ export const HeaderRegistros = () => {
                     <C.HeaderLeft>
                          <div><img src={user} alt="Foto do usuário" /></div>
                          <div >
-                         <p>Usuário</p>
-                         <p>Função:</p>
+                              <p>Usuário</p>
+                              <p>Função:</p>
                          </div>
                     </C.HeaderLeft>
                     <C.HeaderRight>
@@ -20,6 +21,7 @@ export const HeaderRegistros = () => {
                          </Link>
                     </C.HeaderRight>
                </C.HeaderTop>
+               
                <C.HeaderButton>
                     <h2>Painel de Pedidos</h2>
                </C.HeaderButton>

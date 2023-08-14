@@ -7,22 +7,25 @@ export const Container = styled.div`
 
 export const HeaderTop = styled.div`
     background-color: var(--color-back-header);
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20vh;
 `;
 
 export const HeaderLeft = styled.div`
-    margin: 3em;
     display: flex;
+    justify-content: space-around;
 
+  div{
+      padding: 0.5em;
+    }
+  
   p{
     color: var(--color-font-header);
   }
 
   img {
-    margin-right: 2vh;
     background-color: var(--color-font-header);
     height: 10vh;
   }
